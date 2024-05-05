@@ -67,7 +67,7 @@ const UserSchema: Schema<User> = new Schema({
         type:Date,
         required:true,
         default:Date.now
-    }
+    } 
 })
 
 const UserModel = (mongoose.models.User as mongoose.Model<User>) || (mongoose.model<User>("User",UserSchema))
