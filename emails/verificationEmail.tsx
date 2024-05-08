@@ -27,7 +27,7 @@ export default function Email({ username, otp }: verificationEmailProps) {
         <Preview>Your One Time Password OTP for login: {otp}</Preview>
         <Row>
           <Text>
-            OTP is valid only for 05:00 mins. Do not share this OTP with anyone.
+            OTP is valid only for one hour. Do not share this OTP with anyone.
           </Text>
         </Row>
         <Row>
